@@ -25,21 +25,21 @@ You need to specify all of the default dispatchers in your nautobot_config.py, a
 
 Example below, including all the current defaults (see the last line for the new extension):
 
-    PLUGINS_CONFIG = {
-        "nautobot_plugin_nornir": {
-            "dispatcher_mapping": {
-                "default": "nornir_nautobot.plugins.tasks.dispatcher.default.NautobotNornirDriver",
-                "default_netmiko": "nornir_nautobot.plugins.tasks.dispatcher.default.NetmikoNautobotNornirDriver",
-                "cisco_asa": "nornir_nautobot.plugins.tasks.dispatcher.cisco_asa.NautobotNornirDriver",
-                "cisco_nxos": "nornir_nautobot.plugins.tasks.dispatcher.cisco_nxos.NautobotNornirDriver",
-                "cisco_ios": "nornir_nautobot.plugins.tasks.dispatcher.cisco_ios.NautobotNornirDriver",
-                "cisco_xr": "nornir_nautobot.plugins.tasks.dispatcher.cisco_xr.NautobotNornirDriver",
-                "juniper_junos": "nornir_nautobot.plugins.tasks.dispatcher.juniper_junos.NautobotNornirDriver",
-                "arista_eos": "nornir_nautobot.plugins.tasks.dispatcher.arista_eos.NautobotNornirDriver",
-                "fortinet": "nornir_nautobot_extensions.plugins.tasks.dispatcher.fortinet.NautobotNornirDriver",
-            },
-        }
-    }
+    PLUGINS_CONFIG = {  
+        "nautobot_plugin_nornir": {  
+            "dispatcher_mapping": {  
+                "default": "nornir_nautobot.plugins.tasks.dispatcher.default.NautobotNornirDriver",  
+                "default_netmiko": "nornir_nautobot.plugins.tasks.dispatcher.default.NetmikoNautobotNornirDriver",  
+                "cisco_asa": "nornir_nautobot.plugins.tasks.dispatcher.cisco_asa.NautobotNornirDriver",  
+                "cisco_nxos": "nornir_nautobot.plugins.tasks.dispatcher.cisco_nxos.NautobotNornirDriver",  
+                "cisco_ios": "nornir_nautobot.plugins.tasks.dispatcher.cisco_ios.NautobotNornirDriver",  
+                "cisco_xr": "nornir_nautobot.plugins.tasks.dispatcher.cisco_xr.NautobotNornirDriver",  
+                "juniper_junos": "nornir_nautobot.plugins.tasks.dispatcher.juniper_junos.NautobotNornirDriver",  
+                "arista_eos": "nornir_nautobot.plugins.tasks.dispatcher.arista_eos.NautobotNornirDriver",  
+                "fortinet": "nornir_nautobot_extensions.plugins.tasks.dispatcher.fortinet.NautobotNornirDriver",  
+            },  
+        }  
+    }  
 
 Be sure to check the latest version of nornir-nautobot to see if the defaults have changed as the dispatcher_mapping values are not merged.
 
