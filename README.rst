@@ -2,36 +2,11 @@
 Nornir Nautobot Extensions
 ==========================
 
+Extensions that enable additional platform support for nornir-nautobot.
 
-.. image:: https://img.shields.io/pypi/v/nornir_nautobot_extensions.svg
-        :target: https://pypi.python.org/pypi/nornir_nautobot_extensions
+nornir-nautobot can be found here: https://github.com/nautobot/nornir-nautobot
 
-.. image:: https://img.shields.io/travis/glennake/nornir_nautobot_extensions.svg
-        :target: https://travis-ci.com/glennake/nornir_nautobot_extensions
+Current Extensions
+------------------
 
-.. image:: https://readthedocs.org/projects/nornir-nautobot-extensions/badge/?version=latest
-        :target: https://nornir-nautobot-extensions.readthedocs.io/en/latest/?version=latest
-        :alt: Documentation Status
-
-
-
-
-Nornir Nautobot Extensions
-
-
-* Free software: Apache Software License 2.0
-* Documentation: https://nornir-nautobot-extensions.readthedocs.io.
-
-
-Features
---------
-
-* TODO
-
-Credits
--------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+* Fortinet FortiOS
